@@ -4,6 +4,7 @@
 # This file contains information on a card and deck class.
 # Together we will build a player class
 # Then begin designing rules for a game
+# Test for change one
 
 # Global variables used to create a new deck
 face = [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
