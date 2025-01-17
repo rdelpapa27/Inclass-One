@@ -31,10 +31,14 @@ class Card:
 
     # Retuns the suit value of the calling card
     def get_suit(self):
-      
+
+
+	    print("Change Five!")
+
 	    print("Change Three!")
       
 	    print("Change Two")
+
 
         return self.suit
 
