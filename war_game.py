@@ -34,6 +34,7 @@ class Card:
 
     # Returns the face value of the calling card
     def get_face(self):
+	    print("Change Four")
         return self.face
 
     # Compares the face and suit attributes of other_card to those possessed by the calling card
