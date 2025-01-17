@@ -4,10 +4,10 @@
 # This file contains information on a card and deck class.
 # Together we will build a player class
 # Then begin designing rules for a game
-
-# Test for change one
-
+# Previous Comment from Test One / Edited In Branch Three
 # Change Two test
+#
+
 
 
 # Global variables used to create a new deck
