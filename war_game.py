@@ -4,10 +4,9 @@
 # This file contains information on a card and deck class.
 # Together we will build a player class
 # Then begin designing rules for a game
+# Previous Comment from Test One / Edited In Branch Three
+# Previous Comment from Test Two / Edited In Branch Three
 
-# Test for change one
-
-# Change Two test
 
 
 # Global variables used to create a new deck
@@ -32,11 +31,22 @@ class Card:
 
     # Retuns the suit value of the calling card
     def get_suit(self):
-	    print("Change Six")
+
+	    print("Change Six!")
+
+	    print("Change Three!")
+      
+	    print("Change Two")
+
         return self.suit
 
     # Returns the face value of the calling card
     def get_face(self):
+
+	    print("Change Four")
+
+	    print("Change One!")
+
         return self.face
 
     # Compares the face and suit attributes of other_card to those possessed by the calling card
@@ -270,8 +280,13 @@ class War_Player:
 def main():
 
     my_game = War_Game(4)
+
     print("Time to play the game!")
+    print("Let's we must do testing!")
+
+    print("Let's play the game!")
     print("First we must do testing!")
+
     # my_game.deal_cards()
     # print(my_game)
     for i in range(10):
