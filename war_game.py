@@ -5,9 +5,7 @@
 # Together we will build a player class
 # Then begin designing rules for a game
 # Previous Comment from Test One / Edited In Branch Three
-# Change Two test
-#
-
+# Previous Comment from Test Two / Edited In Branch Three
 
 
 # Global variables used to create a new deck
