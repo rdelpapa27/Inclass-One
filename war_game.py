@@ -8,6 +8,7 @@
 # Previous Comment from Test Two / Edited In Branch Three
 
 
+
 # Global variables used to create a new deck
 face = [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
 suit = ["Clubs", "Diamonds", "Hearts", "Spades"]
@@ -30,7 +31,11 @@ class Card:
 
     # Retuns the suit value of the calling card
     def get_suit(self):
+      
+	    print("Change Three!")
+      
 	    print("Change Two")
+
         return self.suit
 
     # Returns the face value of the calling card
@@ -269,7 +274,7 @@ class War_Player:
 def main():
 
     my_game = War_Game(4)
-    print("Time to play the game!")
+    print("Let's play the game!")
     print("First we must do testing!")
     # my_game.deal_cards()
     # print(my_game)
