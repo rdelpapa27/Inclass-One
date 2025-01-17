@@ -40,7 +40,11 @@ class Card:
 
     # Returns the face value of the calling card
     def get_face(self):
+
+	    print("Change Four")
+
 	    print("Change One!")
+
         return self.face
 
     # Compares the face and suit attributes of other_card to those possessed by the calling card
@@ -274,8 +278,13 @@ class War_Player:
 def main():
 
     my_game = War_Game(4)
+
+    print("Time to play the game!")
+    print("Let's we must do testing!")
+
     print("Let's play the game!")
     print("First we must do testing!")
+
     # my_game.deal_cards()
     # print(my_game)
     for i in range(10):
