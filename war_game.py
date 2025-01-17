@@ -5,8 +5,7 @@
 # Together we will build a player class
 # Then begin designing rules for a game
 # Previous Comment from Test One / Edited In Branch Three
-# Change Two test
-
+# Previous Comment from Test Two / Edited In Branch Three
 
 
 
@@ -32,13 +31,16 @@ class Card:
 
     # Retuns the suit value of the calling card
     def get_suit(self):
-	   
-	    
+      
 	    print("Change Three!")
+      
+	    print("Change Two")
+
         return self.suit
 
     # Returns the face value of the calling card
     def get_face(self):
+	    print("Change One!")
         return self.face
 
     # Compares the face and suit attributes of other_card to those possessed by the calling card
